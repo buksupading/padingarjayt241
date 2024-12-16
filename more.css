@@ -1,0 +1,205 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #01161a;
+    
+  }
+  
+  /* Quote Section */
+  .quote-section {
+    background-color: #011e24;
+    text-align: center;
+    padding: 20px 10px;
+    
+  }
+  
+  .quote-section p {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .quote-section span {
+    font-size: 1rem;
+    color: #afadad;
+  }
+  
+  /* About Section */
+  .about-section {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #01161a;
+    box-shadow: 0 0 5px #red,
+                0 0 20px #red;
+  }
+  
+  .about-container {
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .about-container img {
+    width: 300px;
+    border-radius: 8px;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .about-text p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+
+  
+  /* Reviews Section */
+  .reviews-section {
+    background-color: #01161a;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .reviews-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .reviews-section blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: rgb(175, 156, 156);
+    margin: 0 auto 10px;
+    max-width: 800px;
+  }
+  
+  /* Footer Section */
+  .contact-section {
+    background: linear-gradient(to right, #012736, #01161a);
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .contact-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: rgb(175, 156, 156);
+  }
+  
+
+
+  .bots {
+    padding: 0 30%;
+    text-align: center;
+  }
+  
+  .bbtn {
+    font-family: sans-serif;
+    font-size: 15px;    
+    font-weight: bold;
+    background: #00c3ff;
+    width: 50px;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0 , 0, 0.1);
+  }
+  
+  .bots :hover{
+    box-shadow: 0 0 20px rgba(0, 217, 255, 0.5);
+  }
+  
+  
+/* Footer Styles */
+.footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 1px 10px;
+  font-size: 0.9rem;
+  margin-top: 50px;
+}
+
+
+
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+  color: rgb(0, 255, 255);
+  text-decoration: underline;
+
+}
+
+.copyright {
+  margin-top: 10px;
+  color: #777;
+  font-size: 0.8rem;
+}
+
+.portfolio-hero-section {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(to right, #012736, #01161a);
+  color: white;
+}
+
+.portfolio-hero-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.portfolio-hero-section p {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 1rem;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.image-grid img {
+  width: 30%;
+  margin-bottom: 20px;
+}
